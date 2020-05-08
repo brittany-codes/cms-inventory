@@ -1,0 +1,19 @@
+Instructions on how to Install IT Department Hub
+
+You will need a server (WAMP Server or SQL Server)
+- install WAMP Server at this link:
+https://sourceforge.net/projects/wampserver/
+
+- import cmslogin sql file into your database phpmyadmin accessed through localhost on a web browser
+
+Install files under your WWW folder:
+- add a new folder titled CMS
+- copy all files from zip folder to CMS
+
+
+Depending on your file location, you can access CMS app through link:
+- http://localhost/cms/
+
+Login as admin user:
+- you can find user access under dbuserlogininfo text file
+- login with user and once logged in, head to 'Add User' and add a new user yourself
